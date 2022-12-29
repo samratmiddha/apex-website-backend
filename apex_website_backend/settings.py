@@ -86,6 +86,7 @@ DATABASES = {
         'PORT': '',
     }
 }
+MEDIA_ROOT="/home/samrat/dev/apex/media/"
 AUTHENTICATION_BACKENDS = ('django.contrib.auth.backends.ModelBackend',)
 AUTH_USER_MODEL = 'apex.User'
 REST_FRAMEWORK = {
